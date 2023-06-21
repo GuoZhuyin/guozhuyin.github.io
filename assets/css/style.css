@@ -654,7 +654,7 @@ section .container {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #dacc0b;
   margin-bottom: 10px;
@@ -819,6 +819,7 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  max-height: 315px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -906,7 +907,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #f6eb55;
 }
 
 .portfolio .portfolio-wrap:hover::before {
